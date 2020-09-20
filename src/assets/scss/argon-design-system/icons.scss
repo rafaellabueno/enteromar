@@ -69,7 +69,39 @@
 
 // Icons included in shapes
 .icon-shape {
-	padding: 12px;
+	padding: 10px;
+	text-align: center;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+
+
+	i, svg {
+		font-size: 1.25rem;
+	}
+
+	&.icon-lg {
+		i, svg {
+			font-size: 1.625rem;
+		}
+	}
+
+	&.icon-sm {
+		i, svg {
+			font-size: .875rem;
+		}
+	}
+
+	svg {
+		width: 30px;
+		height: 30px;
+	}
+
+}
+
+.icon-shape-2 {
+	padding: 5px;
 	text-align: center;
 	display: inline-flex;
 	align-items: center;

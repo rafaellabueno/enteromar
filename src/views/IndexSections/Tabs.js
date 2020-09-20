@@ -16,6 +16,22 @@ import {
   Col
 } from "reactstrap";
 import Carousel from "./Carousel";
+import Adriana from "./Equipe/Adriana.js";
+import Aline from "./Equipe/Aline.js";
+import AnaPaula from "./Equipe/AnaPaula.js";
+import Dejoara from "./Equipe/Dejoara.js";
+import Guilherme from "./Equipe/Guilherme.js";
+import Icaro from "./Equipe/Icaro";
+import Janira from "./Equipe/Janira.js";
+import Leonardo from "./Equipe/Leonardo.js";
+import LuisEduardo from "./Equipe/LuisEduardo.js";
+import Meiski from "./Equipe/Meiski";
+import Naiara from "./Equipe/Naiara.js";
+import Rafaella from "./Equipe/Rafaella.js";
+import Rebeca from "./Equipe/Rebeca";
+import Robson from "./Equipe/Robson";
+import Romeu from "./Equipe/Romeu";
+import Tiago from "./Equipe/Tiago";
 
 class TabsSection extends React.Component {
   state = {
@@ -81,100 +97,22 @@ class TabsSection extends React.Component {
                   </TabPane>
                   <TabPane tabId="iconTabs2">
                     <p className="description">
-                        <Card className="card-profile shadow mt--3">
-                            <CardBody>
-                            <div className="px-1">
-                                <Row className="justify-content-center">
-                                    <Col className="order-lg-6" lg="6">
-                                        <div className="card-profile-image">
-                                            <a href="#" onClick={e => e.preventDefault()}>
-                                                <img
-                                                    alt="..."
-                                                    className="rounded-circle"
-                                                    src={require("../../assets/img/equipe/rafaella.jpeg")}
-                                                />
-                                            </a>
-                                        </div>
-                                    </Col>
-                                    <Col className="order-lg-6" lg="6">
-                                        <div className="text-center mt-5">
-                                            <h3>
-                                                Rafaella Bueno{" "}
-                                                <div className="card-profile-actions py-4 mt-lg-0">
-                                                    <Button
-                                                        className="nav-link-icon"
-                                                        href="https://github.com/rafaellabueno"
-                                                        id="tooltip112445449"
-                                                        target="_blank"
-                                                    >
-                                                        <i className="fa fa-github" />
-                                                        <span className="nav-link-inner--text d-lg-none ml-2">
-                                                    Github
-                                                </span>
-                                                    </Button>
-                                                </div>
-                                            </h3>
-                                            <div className="h6 mt-4">
-                                                <i className="ni business_briefcase-24 mr-2" />
-                                                Graduanda em Informática Biomédica
-                                            </div>
-                                            <div>
-                                                <i className="ni education_hat mr-2" />
-                                                Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA)
-                                            </div>
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </div>
-                            </CardBody>
-                        </Card>
-                        <Card className="card-profile shadow mt--3">
-                            <CardBody>
-                                <div className="px-1">
-                                    <Row className="justify-content-center">
-                                        <Col className="order-lg-6" lg="6">
-                                            <div className="card-profile-image">
-                                                <a href="#" onClick={e => e.preventDefault()}>
-                                                    <img
-                                                        alt="..."
-                                                        className="rounded-circle"
-                                                        src={require("../../assets/img/equipe/rafaella.jpeg")}
-                                                    />
-                                                </a>
-                                            </div>
-                                        </Col>
-                                        <Col className="order-lg-6" lg="6">
-                                            <div className="text-center mt-5">
-                                                <h3>
-                                                    Rafaella Bueno{" "}
-                                                    <div className="card-profile-actions py-4 mt-lg-0">
-                                                        <Button
-                                                            className="nav-link-icon"
-                                                            href="https://github.com/rafaellabueno"
-                                                            id="tooltip112445449"
-                                                            target="_blank"
-                                                        >
-                                                            <i className="fa fa-github" />
-                                                            <span className="nav-link-inner--text d-lg-none ml-2">
-                                                    Github
-                                                </span>
-                                                        </Button>
-                                                    </div>
-                                                </h3>
-                                                <div className="h6 mt-4">
-                                                    <i className="ni business_briefcase-24 mr-2" />
-                                                    Graduanda em Informática Biomédica
-                                                </div>
-                                                <div>
-                                                    <i className="ni education_hat mr-2" />
-                                                    Universidade Federal de Ciências da Saúde de Porto Alegre (UFCSPA)
-                                                </div>
-                                            </div>
-                                        </Col>
-                                    </Row>
-                                </div>
-                            </CardBody>
-                        </Card>
+                        <Adriana/>
+                        <Aline />
+                        <AnaPaula/>
+                        <Dejoara/>
+                        <Guilherme/>
+                        <Icaro/>
+                        <Janira/>
+                        <Leonardo/>
+                        <LuisEduardo/>
+                        <Meiski/>
+                        <Naiara/>
+                        <Rafaella />
+                        <Rebeca/>
+                        <Robson/>
+                        <Romeu/>
+                        <Tiago/>
                     </p>
                   </TabPane>
                 </TabContent>

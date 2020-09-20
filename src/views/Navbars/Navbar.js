@@ -90,7 +90,7 @@ class DemoNavbar extends React.Component {
                                     <UncontrolledDropdown nav>
                                         <DropdownToggle nav>
                                             <i className="ni ni-ui-04 d-lg-none mr-1" />
-                                            <span className="nav-link-inner--text">Projetos</span>
+                                            <span className="nav-link-inner--text">Projetos de IC</span>
                                         </DropdownToggle>
                                         <DropdownMenu className="dropdown-menu-xl">
                                             <div className="dropdown-menu-inner">
@@ -107,7 +107,7 @@ class DemoNavbar extends React.Component {
                                                             Todos os Projetos
                                                         </h6>
                                                         <p className="description d-none d-md-inline-block mb-0">
-                                                            Projetos do grupo ENTEROMAR
+                                                            Projetos de iniciação científica desenvolvidos pelo grupo ENTEROMAR
                                                         </p>
                                                     </Media>
                                                 </Media>
@@ -125,6 +125,23 @@ class DemoNavbar extends React.Component {
                                                         </h6>
                                                         <p className="description d-none d-md-inline-block mb-0">
                                                             Uma plataforma para caracterização genômica de cepas de Enterococcus spp.
+                                                        </p>
+                                                    </Media>
+                                                </Media>
+                                                <Media
+                                                    className="d-flex align-items-center"
+                                                    href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/colors?ref=adsr-navbar"
+                                                    target="_blank"
+                                                >
+                                                    <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
+                                                        <img width='140%' height='140%' src={require("../../assets/img/logojamirabranco.png")}/>
+                                                    </div>
+                                                    <Media body className="ml-3">
+                                                        <h6 className="heading text-primary mb-md-1">
+                                                            ROMEU
+                                                        </h6>
+                                                        <p className="description d-none d-md-inline-block mb-0">
+                                                            Ferramenta para visualização posicional dos resultados gerados por plataformas de análise genômica comparativa de procariotos.
                                                         </p>
                                                     </Media>
                                                 </Media>
@@ -146,7 +163,7 @@ class DemoNavbar extends React.Component {
                                     <NavItem>
                                         <NavLink
                                             className="nav-link-icon"
-                                            href="https://www.instagram.com/enteromarlab/"
+                                            href="https://www.instagram.com/enteromargroup/"
                                             id="tooltip356693867"
                                             target="_blank"
                                         >
