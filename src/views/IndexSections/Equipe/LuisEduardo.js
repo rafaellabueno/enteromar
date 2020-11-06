@@ -50,6 +50,18 @@ class LuisEduardo extends React.Component {
                                     <h3>
                                         Luís Eduardo Silva Barbosa{" "}
                                         <div className="card-profile-actions mt-lg-0">
+                                            <Button
+                                                className="nav-link-icon"
+                                                href="http://lattes.cnpq.br/3722214203130532"
+                                                target="_blank"
+                                            >
+                                                <div className="icon icon-shape-2 icon-sm  rounded-circle text-white">
+                                                    <img width='80%' height='80%' src={require("../../../assets/img/lattes.png")}/>
+                                                </div>
+                                                <span className="nav-link-inner--text d-lg-none ml-2">
+                                                    Lattes
+                                                </span>
+                                            </Button>
                                             <LuisEduardoModal/>
                                         </div>
                                     </h3>

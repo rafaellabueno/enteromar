@@ -39,7 +39,7 @@ import {
   UncontrolledTooltip
 } from "reactstrap";
 
-class DemoNavbar extends React.Component {
+class NavbarPaginaInicial extends React.Component {
   componentDidMount() {
     let headroom = new Headroom(document.getElementById("navbar-main"));
     // initialise
@@ -110,7 +110,7 @@ class DemoNavbar extends React.Component {
                             Sobre <span className="sr-only">(current)</span>
                         </NavLink>
                     </NavItem>
-                  <UncontrolledDropdown nav>
+                  <UncontrolledDropdown to="/projetos" tag={Link} nav>
                     <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
                       <span className="nav-link-inner--text">Projetos</span>
@@ -119,8 +119,7 @@ class DemoNavbar extends React.Component {
                       <div className="dropdown-menu-inner">
                           <Media
                               className="d-flex align-items-center"
-                              href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/colors?ref=adsr-navbar"
-                              target="_blank"
+                              to="/projetos" tag={Link}
                           >
                               <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
                                   <i className="ni ni-bullet-list-67" />
@@ -136,8 +135,7 @@ class DemoNavbar extends React.Component {
                           </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/colors?ref=adsr-navbar"
-                          target="_blank"
+                          to="/jamira" tag={Link}
                         >
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
                               <img width='140%' height='140%' src={require("../../assets/img/logojamirabranco.png")}/>
@@ -155,12 +153,17 @@ class DemoNavbar extends React.Component {
                     </DropdownMenu>
                   </UncontrolledDropdown>
                     <NavItem>
-                        <NavLink href="#pablo" onClick={e => e.preventDefault()}>
+                        <NavLink to="/publicacoes" tag={Link}>
                             Publicações <span className="sr-only">(current)</span>
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#pablo" onClick={e => e.preventDefault()}>
+                        <NavLink to="/teses-dissertacoes" tag={Link}>
+                            Teses e Dissertações <span className="sr-only">(current)</span>
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink to="/design" tag={Link}>
                             Design <span className="sr-only">(current)</span>
                         </NavLink>
                     </NavItem>
@@ -208,4 +211,4 @@ class DemoNavbar extends React.Component {
   }
 }
 
-export default DemoNavbar;
+export default NavbarPaginaInicial;

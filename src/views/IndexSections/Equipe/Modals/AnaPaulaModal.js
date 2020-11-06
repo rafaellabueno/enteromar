@@ -36,7 +36,7 @@ class AnaPaulaModal extends React.Component {
                 >
                     <i className="fa fa-graduation-cap" />
                     <span className="nav-link-inner--text d-lg-none ml-2">
-                                Projetos
+                                Pesquisadora
                             </span>
                 </Button>
                 <Modal
@@ -58,6 +58,17 @@ class AnaPaulaModal extends React.Component {
                         >
                             <span aria-hidden={true}>×</span>
                         </button>
+                    </div>
+                    <div className="modal-body">
+                        <div className="py-3">
+                            <div className="text-center">
+                                <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
+                                    <img width='120%' height='120%' src={require("../../../../assets/img/enteromarpng.png")}/>
+                                </div>
+                                <p className=" mt-4">Pesquisadora</p>
+                            </div>
+                            <hr/>
+                        </div>
                     </div>
                     <div className="modal-body">
                         <div className="py-3">

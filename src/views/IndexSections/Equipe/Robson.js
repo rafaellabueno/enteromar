@@ -54,12 +54,24 @@ class Robson extends React.Component {
                                                 className="nav-link-icon"
                                                 href="https://github.com/robsonruiz"
                                                 id="tooltip112445449"
-                                                color="default"
                                                 target="_blank"
                                             >
                                                 <i className="fa fa-github" />
                                                 <span className="nav-link-inner--text d-lg-none ml-2">
                                                     Github
+                                                </span>
+                                            </Button>
+                                            <Button
+                                                className="nav-link-icon"
+                                                href="http://lattes.cnpq.br/1805559315593560"
+                                                target="_blank"
+                                                color="default"
+                                            >
+                                                <div className="icon icon-shape-2 icon-sm  rounded-circle text-white">
+                                                    <img width='80%' height='80%' src={require("../../../assets/img/lattes.png")}/>
+                                                </div>
+                                                <span className="nav-link-inner--text d-lg-none ml-2">
+                                                    Lattes
                                                 </span>
                                             </Button>
                                             <RobsonModal/>

@@ -52,6 +52,18 @@ class Janira extends React.Component {
                                         <div className="card-profile-actions mt-lg-0">
                                             <Button
                                                 className="nav-link-icon"
+                                                href="http://lattes.cnpq.br/4733135707203160"
+                                                target="_blank"
+                                            >
+                                                <div className="icon icon-shape-2 icon-sm  rounded-circle text-white">
+                                                    <img width='80%' height='80%' src={require("../../../assets/img/lattes.png")}/>
+                                                </div>
+                                                <span className="nav-link-inner--text d-lg-none ml-2">
+                                                    Lattes
+                                                </span>
+                                            </Button>
+                                            <Button
+                                                className="nav-link-icon"
                                                 href="https://www.researchgate.net/profile/Janira_Prichula"
                                                 color="default"
                                                 target="_blank"

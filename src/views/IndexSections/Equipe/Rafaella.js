@@ -63,6 +63,19 @@ class Rafaella extends React.Component {
                                             </Button>
                                             <Button
                                                 className="nav-link-icon"
+                                                href="http://lattes.cnpq.br/7130559873038676"
+                                                target="_blank"
+                                                color="default"
+                                            >
+                                                <div className="icon icon-shape-2 icon-sm  rounded-circle text-white">
+                                                    <img width='80%' height='80%' src={require("../../../assets/img/lattes.png")}/>
+                                                </div>
+                                                <span className="nav-link-inner--text d-lg-none ml-2">
+                                                    Lattes
+                                                </span>
+                                            </Button>
+                                            <Button
+                                                className="nav-link-icon"
                                                 href="https://www.researchgate.net/profile/Rafaella_Bueno"
                                                 color="default"
                                                 target="_blank"

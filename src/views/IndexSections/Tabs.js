@@ -23,10 +23,13 @@ import Dejoara from "./Equipe/Dejoara.js";
 import Guilherme from "./Equipe/Guilherme.js";
 import Icaro from "./Equipe/Icaro";
 import Janira from "./Equipe/Janira.js";
+import Jeverson from "./Equipe/Jeverson.js";
 import Leonardo from "./Equipe/Leonardo.js";
 import LuisEduardo from "./Equipe/LuisEduardo.js";
+import Mauricio from "./Equipe/Mauricio";
 import Meiski from "./Equipe/Meiski";
 import Naiara from "./Equipe/Naiara.js";
+import Pedro from "./Equipe/Pedro";
 import Rafaella from "./Equipe/Rafaella.js";
 import Rebeca from "./Equipe/Rebeca";
 import Robson from "./Equipe/Robson";
@@ -91,7 +94,7 @@ class TabsSection extends React.Component {
                 <TabContent activeTab={"iconTabs" + this.state.iconTabs}>
                   <TabPane tabId="iconTabs1">
                     <p className="description">
-                      ~ENTEROMAR história~
+                      Em breve...
                     </p>
                       <Carousel/>
                   </TabPane>
@@ -104,10 +107,13 @@ class TabsSection extends React.Component {
                         <Guilherme/>
                         <Icaro/>
                         <Janira/>
+                        <Jeverson/>
                         <Leonardo/>
                         <LuisEduardo/>
+                        <Mauricio/>
                         <Meiski/>
                         <Naiara/>
+                        <Pedro/>
                         <Rafaella />
                         <Rebeca/>
                         <Robson/>
