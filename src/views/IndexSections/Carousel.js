@@ -22,7 +22,7 @@ import { Button, Container, Row, Col, UncontrolledCarousel } from "reactstrap";
 
 const items = [
   {
-    src: require("../../assets/img/enteromarpng.png"),
+    src: require("../../assets/img/enteromarbrancopng.png"),
     altText: "",
     caption: "",
     header: ""

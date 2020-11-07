@@ -67,7 +67,7 @@ class NavbarPaginaInicial extends React.Component {
       <>
         <header className="header-global">
           <Navbar
-            className="navbar-main navbar-transparent navbar-light headroom"
+            className="navbar-transparent navbar-light headroom"
             expand="lg"
             id="navbar-main"
           >
@@ -75,7 +75,7 @@ class NavbarPaginaInicial extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/home" tag={Link}>
                 <img
                   alt="..."
-                 src={require("../../assets/img/enteromarpng.png")}
+                 src={require("../../assets/img/enteromarbrancopng.png")}
                 />
               </NavbarBrand>
 
@@ -92,8 +92,8 @@ class NavbarPaginaInicial extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
+                          />
                           src={require("../../assets/img/enteromar.png")}
-                        />
                       </Link>
                     </Col>
                     <Col className="collapse-close" xs="6">
