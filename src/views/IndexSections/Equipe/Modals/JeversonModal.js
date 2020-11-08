@@ -35,9 +35,6 @@ class JeversonModal extends React.Component {
                     onClick={() => this.toggleModal("notificationModal")}
                 >
                     <i className="fa fa-graduation-cap" />
-                    <span className="nav-link-inner--text d-lg-none ml-2">
-                        Pesquisador Colaborador
-                    </span>
                 </Button>
                 <Modal
                     className="modal-dialog-centered modal-default"

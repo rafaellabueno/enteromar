@@ -36,7 +36,7 @@ class Adriana extends React.Component {
                     <div className="px-1">
                         <Row className="justify-content-center">
                             <Col className="order-lg-6" lg="6">
-                                <div className="card-profile-image">
+                                <div className="card-profile-image" style={{marginLeft: "-50px"}}>
                                     <a href="#" onClick={e => e.preventDefault()}>
                                         <img
                                             alt="..."
@@ -49,8 +49,10 @@ class Adriana extends React.Component {
                             <Col className="order-lg-6" lg="6">
                                 <div className="text-center mt-5">
                                     <h3>
+                                        <div style={{marginTop: "-50px"}}>
                                         Adriana Seixas{" "}
-                                        <div className="card-profile-actions mt-lg-0">
+                                        </div>
+                                        <div className="card-profile-actions mt-lg-0" style={{marginTop: "200px"}}>
                                             <Button
                                                 className="nav-link-icon"
                                                 href="http://lattes.cnpq.br/8098683325472892"
@@ -59,9 +61,6 @@ class Adriana extends React.Component {
                                                 <div className="icon icon-shape-2 icon-sm  rounded-circle text-white">
                                                     <img width='80%' height='80%' src={require("../../../assets/img/lattes.png")}/>
                                                 </div>
-                                                <span className="nav-link-inner--text d-lg-none ml-2">
-                                                    Lattes
-                                                </span>
                                             </Button>
                                             <Button
                                                 className="nav-link-icon"
@@ -72,9 +71,6 @@ class Adriana extends React.Component {
                                                 <div className="icon icon-shape-2 icon-sm  rounded-circle text-white">
                                                     <img width='80%' height='80%' src={require("../../../assets/img/researchgate-logo.png")}/>
                                                 </div>
-                                                <span className="nav-link-inner--text d-lg-none ml-2">
-                                                    ResearchGate
-                                                </span>
                                             </Button>
                                             <AdrianaModal/>
                                         </div>

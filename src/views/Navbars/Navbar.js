@@ -55,7 +55,9 @@ class DemoNavbar extends React.Component {
                                     src={require("../../assets/img/enteromarlogo.png")}
                                 />
                             </NavbarBrand>
-
+                            <button className="navbar-toggler" id="navbar_global">
+                                <span className="navbar-toggler-icon" />
+                            </button>
                             <UncontrolledCollapse
                                 toggler="#navbar_global"
                                 navbar

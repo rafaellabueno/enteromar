@@ -43,7 +43,7 @@ class NavbarPaginaInicial extends React.Component {
   componentDidMount() {
     let headroom = new Headroom(document.getElementById("navbar-main"));
     // initialise
-    headroom.init();
+    //headroom.init();
   }
   state = {
     collapseClasses: "",
@@ -78,9 +78,9 @@ class NavbarPaginaInicial extends React.Component {
                   src={require("../../assets/img/enteromarbrancopng.png")}
                 />
               </NavbarBrand>
-              <Button color="white" id="navbar_global">
-                Menu
-              </Button>
+                <button className="navbar-toggler" id="navbar_global">
+                    <span className="navbar-toggler-icon" />
+                </button>
               <UncontrolledCollapse
                 toggler="#navbar_global"
                 navbar
