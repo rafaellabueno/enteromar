@@ -30,7 +30,7 @@ class Hero extends React.Component {
                     <img
                       alt="..."
                       className="img-fluid"
-                      src={require("../../assets/img/enteromarpng.png")}
+                      src={require("../../assets/img/enteromarbrancopng.png")}
                       style={{ width: "300px" }}
                     />
                     <div className="btn-wrapper mt-5">

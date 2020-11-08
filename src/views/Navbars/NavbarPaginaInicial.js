@@ -67,7 +67,7 @@ class NavbarPaginaInicial extends React.Component {
       <>
         <header className="header-global">
           <Navbar
-            className="navbar-main navbar-transparent navbar-light headroom"
+            className="navbar-transparent navbar-light"
             expand="lg"
             id="navbar-main"
           >
@@ -75,10 +75,12 @@ class NavbarPaginaInicial extends React.Component {
               <NavbarBrand className="mr-lg-5" to="/home" tag={Link}>
                 <img
                   alt="..."
-                 src={require("../../assets/img/enteromarpng.png")}
+                  src={require("../../assets/img/enteromarbrancopng.png")}
                 />
               </NavbarBrand>
-
+              <Button color="white" id="navbar_global">
+                Menu
+              </Button>
               <UncontrolledCollapse
                 toggler="#navbar_global"
                 navbar
@@ -91,8 +93,8 @@ class NavbarPaginaInicial extends React.Component {
                     <Col className="collapse-brand" xs="6">
                       <Link to="/">
                         <img
-                          alt="..."
-                          src={require("../../assets/img/enteromar.png")}
+                          alt="Logo do Enteromar"
+                          src={require("../../assets/img/enteromarpng.png")}
                         />
                       </Link>
                     </Col>
@@ -105,68 +107,67 @@ class NavbarPaginaInicial extends React.Component {
                   </Row>
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
-                    <NavItem>
-                        <NavLink to="/sobre" tag={Link}>
-                            Sobre <span className="sr-only">(current)</span>
-                        </NavLink>
-                    </NavItem>
+                  <NavItem>
+                    <NavLink to="/sobre" tag={Link}>
+                      Sobre <span className="sr-only">(current)</span>
+                    </NavLink>
+                  </NavItem>
                   <UncontrolledDropdown to="/projetos" tag={Link} nav>
                     <DropdownToggle nav>
-                      <i className="ni ni-ui-04 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Projetos</span>
+                      <span>Projetos</span>
                     </DropdownToggle>
                     <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
-                          <Media
-                              className="d-flex align-items-center"
-                              to="/projetos" tag={Link}
-                          >
-                              <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                                  <i className="ni ni-bullet-list-67" />
-                              </div>
-                              <Media body className="ml-3">
-                                  <h6 className="heading text-primary mb-md-1">
-                                      Todos os Projetos
+                        <Media
+                          className="d-flex align-items-center"
+                          to="/projetos" tag={Link}
+                        >
+                          <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
+                            <i className="ni ni-bullet-list-67" />
+                          </div>
+                          <Media body className="ml-3">
+                            <h6 className="heading text-primary mb-md-1">
+                              Todos os Projetos
                                   </h6>
-                                  <p className="description d-none d-md-inline-block mb-0">
-                                      Projetos do grupo ENTEROMAR
+                            <p className="description d-none d-md-inline-block mb-0">
+                              Projetos do grupo ENTEROMAR
                                   </p>
-                              </Media>
                           </Media>
+                        </Media>
                         <Media
                           className="d-flex align-items-center"
                           to="/jamira" tag={Link}
                         >
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                              <img width='140%' height='140%' src={require("../../assets/img/logojamirabranco.png")}/>
+                            <img width='140%' height='140%' src={require("../../assets/img/logojamirabranco.png")} />
                           </div>
                           <Media body className="ml-3">
                             <h6 className="heading text-primary mb-md-1">
                               JAMIRA
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                                Uma plataforma para caracterização genômica de cepas de Enterococcus spp.
+                              Uma plataforma para caracterização genômica de cepas de Enterococcus spp.
                             </p>
                           </Media>
                         </Media>
                       </div>
                     </DropdownMenu>
                   </UncontrolledDropdown>
-                    <NavItem>
-                        <NavLink to="/publicacoes" tag={Link}>
-                            Publicações <span className="sr-only">(current)</span>
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink to="/teses-dissertacoes" tag={Link}>
-                            Teses e Dissertações <span className="sr-only">(current)</span>
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink to="/design" tag={Link}>
-                            Design <span className="sr-only">(current)</span>
-                        </NavLink>
-                    </NavItem>
+                  <NavItem>
+                    <NavLink to="/publicacoes" tag={Link}>
+                      Publicações <span className="sr-only">(current)</span>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink to="/teses-dissertacoes" tag={Link}>
+                      Teses e Dissertações <span className="sr-only">(current)</span>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink to="/design" tag={Link}>
+                      Design <span className="sr-only">(current)</span>
+                    </NavLink>
+                  </NavItem>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>
